@@ -29,7 +29,7 @@
 .off-canvas-menu .cta_main { padding: 15px; background-color: #444; }
 .off-canvas-menu .cta { color: white; text-decoration: none; font-weight: bold; }
 .off-canvas-menu.active { transform: translateY(0%); }
-.menu-close { background: none; border: none; font-size: 2em; color: white; cursor: pointer; }
+.menu-close { background: none; border: none; font-size: 42px; text-align: right; color: white; width: max-content; cursor: pointer; padding-right: 20px; margin-left: auto; }
 .header a { color: #fff; height: 100%; display: block; font-weight: 400; }
 .header a.cta { font-weight: 600; width: fit-content; margin: 0 0 0 auto; background: var(--site-primary-gradient); background-size: 100%; border-radius: 50px; padding: clamp(10px, 1.4vw, 17px) clamp(15px, 1.8vw, 23px); display: flex; justify-content: center; align-items: center; background-position: 10% 10%; transition: all 0.5s linear; font-size: clamp(16px, 2.3vw, 20px); }
 .header.scrolled a.cta { font-size: clamp(14px, 1.6vw, 18px); padding: 15px 13px; }
