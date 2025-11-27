@@ -2,7 +2,7 @@
   --site-primary-gradient:linear-gradient(90deg, #826afc, #5cb6ce);
 }
 * { margin: 0px; padding: 0px; box-sizing: border-box; scroll-behavior: smooth; }
-html,body { background-color: #000; color: #fff; font-family: 'Nexa-ExtraLight', sans-serif; touch-action: none; }
+html,body { background-color: #000; color: #fff; font-family: 'Nexa-ExtraLight', sans-serif; }
 html.lenis,html.lenis body { height:auto }
 .lenis.lenis-smooth { scroll-behavior:auto!important }
 .lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior:contain; }
