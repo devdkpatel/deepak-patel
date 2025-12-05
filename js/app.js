@@ -408,19 +408,19 @@ gsap.to(".header", {
   magneticEffect(),
   velocitySlider();
   
-    // if(window.innerWidth >= 1024){
+    if(window.innerWidth >= 1024){
       
-    //       gsap.to("#projects", {
-    //         "--scale": 1,
-    //         scrollTrigger: {
-    //           trigger: "#projects",
-    //           start: "top 2%",
-    //           end: "bottom 80%",
-    //           scrub: !0,
-    //         },
-    //       });
+          gsap.to("#projects", {
+            "--scale": 1,
+            scrollTrigger: {
+              trigger: "#projects",
+              start: "top 2%",
+              end: "bottom 80%",
+              scrub: !0,
+            },
+          });
 
-    // }
+    }
   
 
 
